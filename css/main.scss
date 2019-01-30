@@ -20,10 +20,10 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
+		large: '(max-width: 1200px)',
 		medium: '(max-width: 980px)',
 		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)'
+		xsmall: '(max-width: 320px)'
 	));
 
 	@include skel-layout((
@@ -166,12 +166,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
-	blockquote {
-		border-left: solid 4px _palette(border);
-		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
-		padding: 0.5em 0 0.5em 2em;
-	}
+  blockquote {
+      border-left: solid 4px _palette(border);
+      font-style: italic;
+      margin: 0 0 _size(element-margin) 0;
+      padding: 0.5em 0 0.5em 2em;
+    }
+
 
 	code {
 		background: _palette(border-bg);
@@ -1387,7 +1388,8 @@ $baseurl: '{{ site.baseurl }}/images';
 		h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
-			left: 1.25em;
+			left: 1em;
+      font-size: 0.9em;
 			line-height: inherit;
 			position: absolute;
 			top: 0;
@@ -1737,13 +1739,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-align: center;
 
 		.icons {
-			font-size: 1.25em;
+			font-size: 1.75em;
 
 			a {
-				color: _palette(fg-light);
+				color: _palette(fg);
 
 				&:hover {
-					color: _palette(fg);
+					color: _palette(fg-light);
 				}
 			}
 		}
@@ -1821,7 +1823,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
+		        @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -1832,3 +1834,32 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+/* Google Maps */
+
+  .google-maps {
+      border-radius: 5px;
+      border: solid 2px _palette(border);
+      margin-bottom: _size(element-margin);
+      padding: 1.5em;
+      position: relative;
+      padding-bottom: 60%; // This is the aspect ratio
+      height: 0;
+      overflow: hidden;
+  }
+
+  .google-maps iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+  }
+
+/* Poem on main page */
+
+  poem {
+    margin: 0 0 _size(element-margin) 0;
+    padding: 0.5em 0 0.5em 0em;
+    text-align: center; 
+  }
