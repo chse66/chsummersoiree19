@@ -1,0 +1,25 @@
+
+COPYRIGHT NOTICE
+WEBSITE: CLARE HALL STUDENT EVENTS
+
+First written: 20 Feb 2019
+
+THE MAJORITY OF THE CONTENTS ON THE WEBSITE ARE AUTHORED AND/OR CREATED BY CLARE HALL STUDENT EVENTS AND/OR ITS MEMBERS. ALL RIGHTS RESERVED. THESE ARE NOT TO BE DISTRIBUTED OR REPRODUCED IN ANY WAY WITHOUT THE WRITTEN PERMISSION OF CLARE HALL STUDENT EVENTS.
+
+WHERE MATERIAL IS SOURCED FROM ELSEWHERE, IT SHALL BE INDICATED CLEARLY ON THE RELEVANT PAGE ON WHICH IT APPEARS, AND/OR LISTED BELOW. 
+
+
+1. Web design
+
+   1. The website template is the Jekyll version of the Spectral HTML5 theme. It was made available under a Creative Commons Attribution 3.0 Unported License (http://creativecommons.org/licenses/by/3.0/).
+ 
+
+2. Banner images (banner.jpg and banner_vert.jpg)
+
+   1. The background image was created by Fu Xiang Quah (https://fxq.smugmug.com) and remain the property of the original author.
+   2. Vector art was designed by Freepik and was made available under the Standard Freepik License (https://www.freepik.com/standard-license). 
+   
+
+3. Digital media
+
+   1. Photographs of Clare Hall May Ball 2019 were created by Márton Gorka (https://www.facebook.com/martongorka) and remain the property of the original author.
