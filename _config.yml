@@ -22,4 +22,4 @@ exclude:
 
 # where jekyll build makes the site directory
 # change this to the public_html
-destination: _site
+destination: /home/fxq20/chstudentevents/public_html/
