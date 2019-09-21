@@ -6,7 +6,6 @@ title: Clare Hall Summer Soirée 2019
 description: Get lost in Clare Hall's Wonderland this July.
 owner: Clare Hall Student Events 
 first_published: 2019 # if migrating another site, the year of your first publish
-email: fxq20@cam.ac.uk 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 social:
@@ -22,4 +21,4 @@ exclude:
 
 # where jekyll build makes the site directory
 # change this to the public_html
-destination: /home/fxq20/chstudentevents/public_html/
+# destination: /home/fxq20/chstudentevents/public_html/
